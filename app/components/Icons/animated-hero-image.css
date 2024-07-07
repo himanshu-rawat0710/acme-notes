@@ -1,0 +1,46 @@
+svg#freepik_stories-mobile-note-list:not(.animated) .animable {
+    opacity: 0;
+}
+svg#freepik_stories-mobile-note-list.animated #freepik--Device--inject-41 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown;
+    animation-delay: 0s;
+}
+svg#freepik_stories-mobile-note-list.animated #freepik--List--inject-41 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown;
+    animation-delay: 0s;
+}
+svg#freepik_stories-mobile-note-list.animated #freepik--Character--inject-41 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideUp, 1.5s Infinite linear wind;
+    animation-delay: 0s, 1s;
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+@keyframes wind {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(1deg);
+    }
+    75% {
+        transform: rotate(-1deg);
+    }
+}

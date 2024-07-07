@@ -1,0 +1,9 @@
+#dots .glider-dot.active{
+    color: #508D4E;
+    background-color: #508D4E;
+}
+
+#dots .glider-dot{
+    color: #C0D9C0;
+    background-color: #C0D9C0;
+}

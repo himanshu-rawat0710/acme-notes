@@ -1,6 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Acme Note
+
+Acme Note is a web-based note-taking application built using Next.js and Tailwind CSS. This project aims to provide a Landing page for a app that provide seamless user experience for organizing notes, tasks, and schedules.
+
+## Technologies Used
+
+- **Next.js**: Frontend framework for building React applications with server-side rendering and routing.
+- **Tailwind CSS**: Utility-first CSS framework for rapidly building custom designs.
+- **Headless UI**: Accessible UI components for React applications.
+- **Glider.js**: Carousel library for creating interactive carousels.
+- **React**: JavaScript library for building user interfaces.
+- **ESLint**: Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- **PostCSS**: Tool for transforming CSS with JavaScript plugins.
+- **TypeScript**: Typed superset of JavaScript that compiles to plain JavaScript.
 
 ## Getting Started
+
+1. Clone the repository:
+```bash
+git clone <repository_url>
+cd acme-note
+npm i
+```
 
 First, run the development server:
 
@@ -15,8 +35,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
